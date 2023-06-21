@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  height: 99.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/exploding-multi-colored-flame-creates-abstract-futuristic-design-generated-by-ai.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+  color: white;
+}
+
+.box {
+  border: 2px solid black;
+  width: 25vw;
+  height: 65vh;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.499);
+  border-radius: 10px;
+}
+.box h1 {
+  padding: 10px 0px;
+  font-size: 32px;
+}
+form {
+  margin: 0px 20px;
+  text-align: left;
+}
+form p {
+  padding: 15px 0px;
+}
+
+input {
+  width: 100%;
+  border: 2px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding: 10px 0px;
+  background-color: rgba(240, 248, 255, 0);
+}
+button {
+  display: inline-block;
+  width: 50%;
+  margin: 25px 0px 10px 0px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  background-color: yellow;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(48, 192, 192);
+}
+@media (max-width: 1400px) {
+  .box {
+    border: 2px solid rgb(10, 9, 9);
+    width: 380px;
+    height: 63vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.499);
+    border-radius: 10px;
+  }
+
+  .box h1 {
+    padding: 10px 0px;
+    font-size: 34px;
+  }
+}
+@media (max-width: 500px) {
+  .box {
+    border: 2px solid rgb(10, 9, 9);
+    width: 80vw;
+    height: 65vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.499);
+    border-radius: 10px;
+  }
+
+  .box h1 {
+    padding: 10px 0px;
+    font-size: 34px;
+  }
+}
+@media (max-width: 400px) {
+  .box {
+    border: 2px solid rgb(10, 9, 9);
+    width: 90vw;
+    height: 65vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.499);
+    border-radius: 10px;
+  }
+
+  .box h1 {
+    padding: 10px 0px;
+    font-size: 44px;
+  }
+}
